@@ -2,3 +2,22 @@
     height: 300px;
     width: 300px;
 }
+.crystals-header{
+    background-color: orange;
+    color: white;
+    padding: 14px;
+    width:250px;
+}
+p{
+    width: 600px;
+    color: green;
+    background-color: #ffe3c4;
+    padding: 14px;
+}
+body{
+    background-color: aquamarine;
+}
+#score-counter{
+    background-color: blue;
+    padding: 20px;
+}
