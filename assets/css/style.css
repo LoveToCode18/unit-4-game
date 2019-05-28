@@ -1,23 +1,52 @@
 .crystal-image{
     height: 100px;
     width: 100px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 .crystals-header{
     background-color: orange;
     color: white;
     padding: 14px;
-    width:250px;
+    width:350px;
+    margin-left: 10px;
 }
 p{
-    width: 600px;
+    width: 435px;
     color: green;
     background-color: #ffe3c4;
     padding: 14px;
+    margin-left: 10px;
 }
 body{
     background-color: aquamarine;
 }
-#score-counter{
+h5 {
+   background-color: teal;
+   width: 110px;
+   padding: 25px;
+   margin-bottom: 0%;
+   margin-left: -20px;
+}
+#number-to-guess{
+    margin-left: 20px;
+    background-color: greenyellow;
+    padding-bottom: 110px;
+}
+.container{
+    margin-left: -25px;
+}
+#crystals{
+    margin-top: 10px;
+}
+h3{
+    margin-left: 20px;
+    background-color:blue;
+    padding-bottom: 100px;
+    color: white;
+}
+.total{
+    width: 235px;
     background-color: blue;
-    padding: 20px;
+    color: white;
 }
