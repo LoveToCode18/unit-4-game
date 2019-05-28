@@ -1,5 +1,6 @@
 var targetNumber = 50;
 
+var score = counter;
 
 $("#number-to-guess").text(targetNumber);
 
@@ -8,6 +9,7 @@ var counter = 0;
 var numberOptions = [12,4,7,3];
 
 for (var i = 0; i < numberOptions.length; i++){
+   
     var imageCrystal = $("<img>");
 
     imageCrystal.addClass("crystal-image");
@@ -19,7 +21,20 @@ for (var i = 0; i < numberOptions.length; i++){
     $("#crystals").append(imageCrystal);
 }
 
-$(".")
+$(".crystal-image").on("click", function() {
+
+    var crystalValue = ($(this).attr("data-crystalvalue"));
+        crystalValue = parseInt(crystalValue);
+
+        counter += crystalValue;
+
+         $("#score-counter").html(counter);
+
+    if (counter === targetNumber){
+        
+    }
+
+});
     
    
 
