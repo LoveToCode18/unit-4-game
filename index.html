@@ -8,6 +8,7 @@
     <script src="assets/javascript/game.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap')">
     <title>Crystal Collector</title>
 </head>
 <body>
@@ -120,12 +121,14 @@ $(".crystal-image").on("click", function() {
     if (counter == targetNumber){
         alert("you won");
         $("#wins").html("Wins:" + wins++);
+        $("#number-to-guess").html(targetNumber = [Math.floor(Math.random() * 100)]);
+        $("#crystals").html();
         counter = 0;
     }
     if (counter > targetNumber){
         alert("you lose");
         $("#losses").html("Losses:" + losses++);
-        counter = 0;    }
+        counter = 0; }
 });
     
    
