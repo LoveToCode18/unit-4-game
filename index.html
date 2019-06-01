@@ -120,8 +120,9 @@ $(".crystal-image").on("click", function() {
     if (counter == targetNumber){
         alert("you won");
         $("#wins").html("Wins:" + wins++);
-        $("#number-to-guess").html(targetNumber = [Math.floor(Math.random() * 100)]);        $("#score-counter").html(counter = 0);
-        // $("#crystals").html(imageCrystal.attr("data-crystalvalue", numberOptions[Math.floor(Math.random()*numberOptions.length)]))
+        $("#number-to-guess").html(targetNumber = [Math.floor(Math.random() * 100)]);        
+        $("#score-counter").html(counter = 0);
+        imageCrystal.attr(numberOptions);
     }
     if (counter > targetNumber){
         alert("you lose");
